@@ -1,0 +1,86 @@
+.layout {
+  /*display: inline-block;*/
+}
+#top-tables {
+  height: 200px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+#top-left-space {
+  height: 200px;
+  background-color: grey
+}
+#top-right-space {
+  height: 200px;
+  background-color: grey
+}
+#left-tables {
+  height: 1300px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+#middle-tables {
+  height: 1000px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+#right-tables {
+  height: 1300px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+#top-walk {
+  height: 150px;
+  background-color: papayawhip;
+}
+#left-walk {
+  height: 1000px;
+  background-color: papayawhip;
+}
+#right-walk {
+  height: 1000px;
+  background-color: papayawhip;
+}
+#bottom-walk {
+  height: 150px;
+  background-color: papayawhip;
+}
+#footer {
+  height: 150px;
+  border: 1px solid black;
+  background-color: grey
+}
+#middle-container {
+  padding: 0;
+}
+
+#main {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cell {
+  height: 48px;
+  width: 48px;
+  display:inline-block;
+  /*border: 1px solid black;*/
+  margin-bottom: -7px;
+}
+
+.person {
+  max-width: 100%;
+
+}
+
+.north {
+  transform: rotate(0deg);
+}
+.east {
+  transform: rotate(90deg);
+}
+.south {
+  transform: rotate(180deg);
+}
+.west {
+  transform: rotate(270deg);
+}
